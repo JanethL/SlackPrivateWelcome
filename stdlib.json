@@ -1,0 +1,11 @@
+{
+  "name": "JanethL/SlackWelcomeApp",
+  "version": "0.0.0",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/slack/member_joined_channel.js": {
+      "name": "slack.member_joined_channel"
+    }
+  }
+}
