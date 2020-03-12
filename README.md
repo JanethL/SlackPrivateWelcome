@@ -96,9 +96,9 @@ You can read more about API specifications and parameters [here](https://docs.st
 
 **Click Open in Autocode👇🏼**
 
-You will be prompted to sign in or create a free account. If you have a Standard Library account click **Already Registered** and sign in using your Standard Library credentials.
-
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+
+You will be prompted to sign in or create a free account. If you have a Standard Library account click **Already Registered** and sign in using your Standard Library credentials.
 
 **Link a Slack Account & Deploy your Workflow**
 
@@ -151,26 +151,47 @@ via the [Standard Library CLI](https://github.com/stdlib/lib).
 
 ## via Web Browser
 
-Simply visit [`autocode.stdlib.com`](https://autocode.stdlib.com) and pick your project
-from the left sidebar. You can easily make updates and changes this way, and
-deploy directly from your browser.
+Simply visit [`autocode.stdlib.com`](https://autocode.stdlib.com) and select `dev live API` for your project. 
+
+<img src= "https://cdn-images-1.medium.com/max/1280/1*kg579TkccVIhMCtrvO_LSw.png" width="400">
+
+
+You can use Block Kit Builder to create a rich and interactive message design in no time. 
+
+[Block Kit Builder](https://api.slack.com/block-kit) is Slack’s visual prototyping tool that enables Makers to create rich and interactive message designs without having to write code. Makers can choose from pre-built templates and edit the code or use building components. Once a design is ready, copy and paste the JSON into the blocks section of your project on Autocode.
+
+Access my template design by clicking this [link](https://api.slack.com/tools/block-kit-builder?mode=message&blocks=%5B%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22*%F0%9F%99%8F%F0%9F%8F%BD%20Thank%20you%20for%20joining%20our%20community%20of%20Makers%20and%20Developers.%20%5Cn%20%5Cn%20%F0%9F%98%8D%20%20It%27d%20be%20awesome%20if%20you%20could%20introduce%20yourself%20in%20our%20%23general%20channel.%5Cn%20%20%5Cn%20Tell%20us%20who%20you%20are%20and%20what%20projects%20you%20are%20working%20on.%20Also%20feel%20free%20to%20ask%20any%20question%20regarding%20building%20with%20APIs%20on%20Standard%20Library.%20%5Cn%20%5CnOnce%20you%20are%20done%20telling%20us%20about%20yourself%20you%20may%20return%20and%20check%20out%20tutorials%2C%20blog%20posts%2C%20and%20upcoming%20events.%20%5Cn%20%5Cn%20Happy%20Building!%20%F0%9F%A4%97%20%F0%9F%91%B7%20%F0%9F%9A%80%20%20%22%7D%7D%2C%7B%22type%22%3A%22divider%22%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%20%F0%9F%91%A8%F0%9F%8F%BD%F0%9F%92%BB%20*Tutorials*%20%20%22%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22*Introducing%20Autocode*%20%5Cn%20Watch%20this%2010%20minute%20video%20to%20learn%20how%20easy%20it%20is%20to%20build%20integrations%20with%20APIs%20on%20Standard%20Library%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Watch%20Now%22%2C%22emoji%22%3Atrue%7D%2C%22url%22%3A%22https%3A%2F%2Fyoutu.be%2Fha3C0X3Vyi0%22%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22*APIs%20for%20Makers*%20%5Cn%20A%20high-level%20overview%20of%20how%20APIs%20work%20and%20a%20step%20by%20step%20example%20of%20how%20to%20connect%20two%20different%20pieces%20of%20software%3A%20Slack%20and%20Typeform%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22Read%20Now%22%2C%22emoji%22%3Atrue%7D%2C%22url%22%3A%22https%3A%2F%2Fmedium.com%2Fbetter-programming%2Fapis-for-makers-9670719e7f25%22%7D%7D%2C%7B%22type%22%3A%22divider%22%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%3Acalendar%3A%20%7C%20%20%20*UPCOMING%20EVENTS*%20%20%7C%20%3Acalendar%3A%20%22%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%6003%2F20%60%20*Slack%20app%20%2B%20API%20%20Workshop%20for%20Makers%20%26%20Developers*%20_%20Maker.dev%20(SF%20Chapter)%20%40%20SlackHQ%205%3A30%20pm%20-%208%3A30%20pm_%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22RSVP%22%2C%22emoji%22%3Atrue%7D%2C%22url%22%3A%22https%3A%2F%2Fwww.meetup.com%2FMaker-dev-SF-Chapter%2Fmembers%2F%3Fsort%3Djoin_date%26desc%3Dtrue%22%7D%7D%2C%7B%22type%22%3A%22section%22%2C%22text%22%3A%7B%22type%22%3A%22mrkdwn%22%2C%22text%22%3A%22%6003%2F20%60%20*No%20Code%20March*%20_%20Learn%20how%20to%20build%20with%20Autocode%2C%20Bubble%2C%20Airtable%20%2B%20more%20%40%20Galvanize%206%3A00%20pm%20-%208%3A00%20pm_%22%7D%2C%22accessory%22%3A%7B%22type%22%3A%22button%22%2C%22text%22%3A%7B%22type%22%3A%22plain_text%22%2C%22text%22%3A%22RSVP%22%2C%22emoji%22%3Atrue%7D%2C%22url%22%3A%22https%3A%2F%2Fwww.eventbrite.com%2Fe%2Fno-code-sf-meetup-tickets-97328910391%22%7D%7D%5D) You should see a template that looks like this:
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e66892de5e3894891593853_1_m_xtAP2fRWza10nz4p5X1g.png" width="400">
+
+Select and copy only the objects inside the brackets [].
+
+Set the objects as the value for theblocks key by pasting the code directly onto Autocode’s interface as I have done below:
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e66893b8ca145d2caface89_1__FXLdcfVmvnB4Fqa3mzuOw.png" width="400">
+
+Select **Save Endpoint** and **Deploy buttons** to push your changes live 🚀
+
+When you test your app you should see the updated welcome message.
+
+You can easily make updates and changes this way, and deploy directly from your browser.
 
 ## via Command Line
 
-You can either export your project via tarball by right-clicking the project
-once open on [Code on Standard Library](https://code.stdlib.com/). You can then
-install the CLI tools from [stdlib/lib](https://github.com/stdlib/lib) to test,
+You can install the CLI tools from [stdlib/lib](https://github.com/stdlib/lib) to test,
 makes changes, and deploy.
+
+You can retrieve your package via `lib get`...
+
+```shell
+lib get <username>/<project-name>@dev
+```
+
+To deploy
 
 ```shell
 # Deploy to dev environment
 lib up dev
-```
-
-Alternatively, you can retrieve your package via `lib get`...
-
-```shell
-lib get <username>/<project-name>@dev
 ```
 
 # Shipping to Production
