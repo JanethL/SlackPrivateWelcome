@@ -31,7 +31,7 @@ Once you go through this initial set up, you'll be able to immediately test you 
 
 # How It Works
 
-```json
+```
 const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
 /**
