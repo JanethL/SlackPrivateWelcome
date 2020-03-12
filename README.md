@@ -155,8 +155,11 @@ Simply visit [`autocode.stdlib.com`](https://autocode.stdlib.com) and select `de
 
 <img src= "https://cdn-images-1.medium.com/max/1280/1*kg579TkccVIhMCtrvO_LSw.png" width="400">
 
+Your code is completely accesible to make edits. 
 
-You can use Block Kit Builder to create a rich and interactive message design in no time. 
+<img src= "https://cdn-images-1.medium.com/max/1280/1*3nT0U9tprSZiRJ8pd_g76Q.png" width="400">
+
+If you like, you can use Block Kit Builder to create a rich and interactive message design in no time, and return to paste your creation inside Autocode. 
 
 [Block Kit Builder](https://api.slack.com/block-kit) is Slack’s visual prototyping tool that enables Makers to create rich and interactive message designs without having to write code. Makers can choose from pre-built templates and edit the code or use building components. Once a design is ready, copy and paste the JSON into the blocks section of your project on Autocode.
 
