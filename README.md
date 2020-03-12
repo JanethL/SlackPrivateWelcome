@@ -15,11 +15,16 @@ focus on just writing and modifying logic.
 
 # Example Usage
 
-👋 Welcome new members 
+👋 Welcome new members
+
 📏 Set expectations 
+
 🧙 Highlight key people & resources
+
 ⚡️  Foster an engaged and active community
+
 🗂 Maintain an organized workspace
+
 🎨 Customize your messages with block kit builder
 
  
