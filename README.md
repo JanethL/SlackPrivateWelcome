@@ -89,7 +89,7 @@ You can read more about API specifications and parameters [here](https://docs.st
 
 Head over to [Autocode](http://autocode.stdlib.com/) on Standard Library and sign in or create a free account. If you have a Standard Library account click **Already Registered** and sign in using your Standard Library credentials.
 
-You’ll notice prebuilt templates for building webhooks, scheduled tasks, Slack slash commands, and Stripe workflows. Select **“Blank Prototype new code.”**
+You’ll notice prebuilt templates for building webhooks, scheduled tasks, Slack slash commands, and Stripe workflows. Select **Blank Prototype new code**
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6687eed339467f8eef5756_1_4rlT80WzamXaIjUEG32Zfg.png" width="400">
 
@@ -110,14 +110,14 @@ On the first drop-down menu, select **Slack** as your **event source** and **mem
 When you make this selection, Autocode adds two additional steps to your workflow.
                                                                                                                               <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668820462bf092dfc3690a_1_0LQP95XUhOu9xPVhyh0EWw%20(1).png" width="400">
 
-This first step sets an HTTP endpoint that will act as a webhook for a Slack member_joined_channel event. When a new member joins a channel, a payload of information for that event is sent from Slack to the HTTP endpoint. The code inside the endpoint then executes and can use the information.
+This first step sets an HTTP endpoint that will act as a webhook for a Slack `member_joined_channel event`. When a new member joins a channel, a payload of information for that event is sent from Slack to the HTTP endpoint. The code inside the endpoint then executes and can use the information.
 
-Step #2 Makes an HTTP GET request to the [lib.slack.conversations[‘@0.2.5’]](https://stdlib.com/@slack/lib/conversations/) API and uses the [info](https://stdlib.com/@slack/lib/conversations/#info) method to retrieve the channel object which has info about the channel including name, topic, purpose etc and stores it in result.slack.channel. The parameter to retrieve channel information is automatically set to ${event.event.channel} — leave as is.
+Step #2 Makes an HTTP GET request to the [lib.slack.conversations[‘@0.2.5’]](https://stdlib.com/@slack/lib/conversations/) API and uses the [info](https://stdlib.com/@slack/lib/conversations/#info) method to retrieve the channel object which has info about the channel including name, topic, purpose etc and stores it in `result.slack.channel`. The parameter to retrieve channel information is automatically set to `${event.event.channel}` — leave as is.
 
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668833510abc85605c07b7_5e6362ac6f97340f498963c3_1_jnayuZuQMh4yCibRR_NwNQ.png" width="400">
 
-Step #3 Also makes an HTTP GET request to lib.slack.users[‘@0.3.32’] and uses theretrieve method to get the user object which has info about the user and stores it in result.slack.user. The parameter to retrieve user information is automatically set to ${event.event.user} — leave as is.                                                                                             
+Step #3 Also makes an HTTP GET request to `lib.slack.users[‘@0.3.32’]` and uses theretrieve method to get the user object which has info about the user and stores it in `result.slack.user`. The parameter to retrieve user information is automatically set to `${event.event.user}` — leave as is.                                                                                             
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6688418ca145555afac90b_1_CFTGSfcRCs5MNjknKhJFIQ.png" width="400">
 
@@ -125,20 +125,20 @@ Parameters are like blank spaces for us to fill when calling an API — it’s a
 
 **Set up a Private Slack Message**
 
-Add a final API to this workflow by selecting the + button. Choose Slack as your API provider and Create a new Ephemeral Message from your Bot as the API that will be triggered.
+Add a final API to this workflow by selecting the `+` button. Choose **Slack** as your API provider and **Create a new Ephemeral Message from your Bot** as the API that will be triggered.
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668853e5e389346159311a_1_NlsW51habiKG2nq6YjVodQ.png" width="400">
-This step in our workflow makes an HTTP POST request to lib.slack.messages[‘@0.5.11’] using the ephemeral.create method to create and post a message that’ll be visible only to a new member.
+This step in our workflow makes an HTTP POST request to lib.slack.messages[‘@0.5.11’] using the `ephemeral.create` [method](https://stdlib.com/@slack/lib/messages/#ephemeral-create) to create and post a message that’ll be visible only to a new member.
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e66885ee5e38962f9593381_1_TBoIFwLdSuPqb5aoUmcgPg.png" width="400">
 
 Configure your API call with the following parameters:
 
-channelId:${event.event.channel}
+`channelId:${event.event.channel}`
 
-userId:${event.event.user}
+`userId:${event.event.user}`
 
-text: 👋 Hello ${result.slack.channel.name} ! Welcome to our #${result.slack.channel.name} channel.
+`text: 👋 Hello ${result.slack.channel.name} ! Welcome to our #${result.slack.channel.name} channel.`
 
 **Link a Slack Account & Deploy your Workflow**
 
@@ -146,7 +146,7 @@ Before we can deploy our code live, we need to link Select the **1 Account Requi
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e66888926bbef43d9481dd7_1_tgu46HauPHWliIeDa3-Xug.png" width="400">
 
-Select Link Resource from the Identity Management Screen
+Select **Link Resource** from the Identity Management Screen
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668894f63b77035852ba49_1_dq_mT36YIoIFRvRwvnZhFg.png" width="400">
 
@@ -168,29 +168,30 @@ Select the orange **Save Endpoint** button.
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668900e5e38939015936a9_1_SydeSnmMkbFMrpI8MB3JSA.png" width="400">
 
-Give your project a name and Save API Project.
+Give your project a name and **Save API Project**.
 
 Great! You’ve just saved your first project. Autocode automatically sets up a project scaffold to save your project as an API endpoint, but it hasn’t been deployed.
 
-This means your endpoints are not yet live and can’t respond to HTTP requests or events. To deploy your API to the cloud select Deploy API in the bottom-left of the file manager.
+This means your endpoints are not yet live and can’t respond to HTTP requests or events. To deploy your API to the cloud select **Deploy API** in the bottom-left of the file manager.
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e66891104c8aa5723a283ba_1_DJsbBEuMOuZpbNumi9bZlg.png" width="400">
+
+# Test Your Workflow
 
 Test your Slack app by joining or leaving any channel in your workspace. If you’ve set everything up properly you should receive a warm welcome from your Slack app.
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6687c804c8aa12f6a27dd1_1_mvvAvsgBv-vd2kik89moiQ.png" width="400">
 
-# Test Your Workflow
 
 # Making Changes
 
 There are two ways to modify your application. The first is via our in-browser
-editor, [Code on Standard Library](https://code.stdlib.com/). The second is
+editor, [Autocode](https://Autocode.stdlib.com/). The second is
 via the [Standard Library CLI](https://github.com/stdlib/lib).
 
 ## via Web Browser
 
-Simply visit [`code.stdlib.com`](https://code.stdlib.com) and pick your project
+Simply visit [`autocode.stdlib.com`](https://autocode.stdlib.com) and pick your project
 from the left sidebar. You can easily make updates and changes this way, and
 deploy directly from your browser.
 
@@ -233,7 +234,7 @@ Via Slack: [`libdev.slack.com`](https://libdev.slack.com/)
 You can request an invitation by clicking `Community > Slack` in the top bar
 on [`https://stdlib.com`](https://stdlib.com).
 
-Via Twitter: [@StdLibHQ](https://twitter.com/StdLibHQ)
+Via Twitter: [@StandardLibrary](https://twitter.com/StandardLibrary)
 
 Via E-mail: [support@stdlib.com](mailto:support@stdlib.com)
 
