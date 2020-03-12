@@ -13,19 +13,19 @@ use this repository as its project structure. Standard Library will automaticall
 handle Slack authentication / webhook signing and more for you, so you can
 focus on just writing and modifying logic.
 
-# Example Usage
+# Example Use Case
 
-👋 Welcome new members
+👋 Welcome new members and set expectations 
 
-📏 Set expectations 
-
-🧙 Highlight key people & resources
+🧙 Highlight key people, resources, events
 
 ⚡️  Foster an engaged and active community
 
 🗂 Maintain an organized workspace
 
 🎨 Customize your messages with block kit builder
+
+<img src="https://cdn-images-1.medium.com/max/1280/1*JOkQda_I7vTbgnExD6sbjA.png" width="400">
 
  
 # Table of Contents
