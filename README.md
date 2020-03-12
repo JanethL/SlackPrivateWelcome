@@ -68,7 +68,7 @@ module.exports = async (event) => {
 
   return result;
 
-};```
+}; ```
 
 The first line of code imports an NPM package called “lib” to allow us to communicate with other APIs on top of Standard Library:
 
