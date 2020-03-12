@@ -181,7 +181,7 @@ You can easily make updates and changes this way, and deploy directly from your 
 You can install the CLI tools from [stdlib/lib](https://github.com/stdlib/lib) to test,
 makes changes, and deploy.
 
-You can retrieve your package via `lib get`...
+You can retrieve your package via `lib get`
 
 ```shell
 lib get <username>/<project-name>@dev
@@ -197,8 +197,10 @@ lib up dev
 # Shipping to Production
 
 Standard Library has easy dev / prod environment management, if you'd like to ship to production,
-visit [`build.stdlib.com/projects`](https://build.stdlib.com/projects),
+visit your dashboard on [`https://build.stdlib.com/`](https://build.stdlib.com/),
 find your project and select it.
+
+<img src= "https://cdn-images-1.medium.com/max/1280/1*cr32Ad3q1mKrWiejjxTsZQ.png" width="400">
 
 From the environment management screen, simply click **Ship Release**.
 
