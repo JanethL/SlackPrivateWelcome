@@ -38,7 +38,8 @@ Head over to [Autocode](http://autocode.stdlib.com/) on Standard Library and sig
 
 You’ll notice prebuilt templates for building webhooks, scheduled tasks, Slack slash commands, and Stripe workflows. Select **“Blank Prototype new code.”**
 
-<img src= "https://assets-global.website files.com/5c1a205a6edb848508d03ed7/5e6687eed339467f8eef5756_1_4rlT80WzamXaIjUEG32Zfg.png" width="400">
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6687eed339467f8eef5756_1_4rlT80WzamXaIjUEG32Zfg.png" width="400">
+
 
 
 # Test Your Workflow
