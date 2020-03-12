@@ -1,7 +1,7 @@
 # README
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
-# 👋 Greet New members Privately in Slack 
+# 👋 Greet New Members Privately in Slack 
 
 In just a few steps, we will create a Slack app to privately welcome and guide new users when they join a Slack channel. We’ll breeze through the setup process, and you’ll be able to return to make modifications and add your own style and custom message for a unique workspace onboarding experience!
 
@@ -85,6 +85,8 @@ You can read more about API specifications and parameters [here](https://docs.st
 # Installation
 
 **Click Open in Autocode👇🏼**
+
+You will be prompted to sign in or create a free account. If you have a Standard Library account click **Already Registered** and sign in using your Standard Library credentials.
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
