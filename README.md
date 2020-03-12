@@ -31,8 +31,45 @@ Once you go through this initial set up, you'll be able to immediately test you 
 
 # How It Works
 
-<script src="https://gist.github.com/JanethL/7c9b1b54de2e9ed07f418bb58917b33d.js"></script>
+```
+1  const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
+3   /**
+4   * An HTTP endpoint that acts as a webhook for Slack member_joined_channel event
+5   * @param {object} event
+6   * @returns {object} result Your return value
+7   */
+8   module.exports = async (event) => {
+
+10   // Store API Responses
+11   const result = {slack: {}};
+
+13  console.log(`Running [Slack → Retrieve Channel, DM, or Group DM by id]...`);
+14  result.slack.channel = await lib.slack.conversations['@0.2.5'].info({
+15    id: `${event.event.channel}`
+16  });
+
+18  console.log(`Running [Slack → Retrieve a User]...`);
+19  result.slack.user = await lib.slack.users['@0.3.32'].retrieve({
+20   user: `${event.event.user}`
+21  });
+
+  
+24  console.log(`Running [Slack → Create a new Ephemeral Message from your Bot]...`);
+25  result.slack.response = await lib.slack.messages['@0.5.11'].ephemeral.create({
+26    channelId: `${event.event.channel}`,
+27    userId: `${event.event.user}`,
+28    text: `👋 Hello ${result.slack.user.name} ! Welcome to our #${result.slack.channel.name} channel. `,
+29    attachments: [],
+30    blocks: [],
+31    as_user: false
+32  });
+  
+
+35  return result;
+
+37};
+```
 The first line of code imports an NPM package called “lib” to allow us to communicate with other APIs on top of Standard Library:
 
 `const lib = require(‘lib’)({token: process.env.STDLIB_SECRET_TOKEN});`
