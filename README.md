@@ -86,7 +86,28 @@ Before we can deploy our code live, we need to link Select the **1 Account Requi
 
 <img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e66888926bbef43d9481dd7_1_tgu46HauPHWliIeDa3-Xug.png" width="400">
 
-<img src= " " width="400">
+Select Link Resource from the Identity Management Screen
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668894f63b77035852ba49_1_dq_mT36YIoIFRvRwvnZhFg.png" width="400">
+
+If you’ve built Slack apps with Standard Library, you’ll see existing Slack accounts, or you can select **Link New Resource** to link a new Slack app.
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6688a2418eee2b1d3245a0_0__DwyDOC6YWDav03M.png" width="400">
+Select **Install Standard Library App.**
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6688abe5e3898706593578_0_8PmM4BiMvkmKG1Oi.png" width="400">
+You should see an OAuth popup that looks like this:
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6688b4e5e3894d7659359e_0_I4y2dU7RLUhrGcxQ.png" width="400">
+Select **Allow**. You’ll have the option to customize your Slack app with a name and image.
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6688be462bf016a2c36b03_1_kpbfG0cHjXUoSTfRAzOPlA.png" width="400">
+Select **Finish**. The green checkmarks confirm that you’ve linked your accounts correctly. Click **Finished Linking.**
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e6688cd26bbef80e2481ed9_1_6Z00pwSEfq0pUsAR2HG33A.png" width="400">
+Select the orange **Save Endpoint** button.
+
+<img src= "https://assets-global.website-files.com/5c1a205a6edb848508d03ed7/5e668900e5e38939015936a9_1_SydeSnmMkbFMrpI8MB3JSA.png" width="400">
+
 
 
 # Test Your Workflow
