@@ -1,5 +1,5 @@
 # README
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 # 👋 Greet New Members Privately in Slack 
 
@@ -41,7 +41,7 @@ focus on just writing and modifying logic.
 
 # How It Works
 
-```
+```javascript
 1  const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
 
 3   /**
@@ -96,7 +96,7 @@ You can read more about API specifications and parameters [here](https://docs.st
 
 **Click Open in Autocode👇🏼**
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 You will be prompted to sign in or create a free account. If you have a Standard Library account click **Already Registered** and sign in using your Standard Library credentials.
 
