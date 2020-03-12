@@ -3,7 +3,7 @@
 
 # 👋 Greet New Members Privately in Slack 
 
-In just a few steps, we will create a Slack app to privately welcome and guide new users when they join a Slack channel. We’ll breeze through the setup process, and you’ll be able to return to make modifications and add your own style and custom message for a unique workspace onboarding experience!
+In just a few steps, we will create a Slack app to privately welcome and guide new users when they join a Slack channel. We’ll breeze through the setup process, and you’ll be able to return to make modifications and add your own style and custom message for a unique onboarding experience!
 
 <img src="https://cdn-images-1.medium.com/max/1280/1*mvvAvsgBv-vd2kik89moiQ.png" width="250">
 
@@ -15,7 +15,12 @@ focus on just writing and modifying logic.
 
 # Example Usage
 
-Once you go through this initial set up, you'll be able to immediately test you slack app by leaving and joining any channel in your workspace. 
+👋 Welcome new members 
+📏 Set expectations 
+🧙 Highlight key people & resources
+⚡️  Foster an engaged and active community
+🗂 Maintain an organized workspace
+🎨 Customize your messages with block kit builder
 
  
 # Table of Contents
