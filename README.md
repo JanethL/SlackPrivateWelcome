@@ -72,12 +72,56 @@ Lines `24–32` creates and posts your message using the information (parameters
 You can read more about API specifications and parameters here: https://docs.stdlib.com/connector-apis/building-an-api/api-specification/
 
 # Installation
+
 Before we can deploy our code live, we need to Select the 1 Account Required red button which will prompt you to link a Slack account.
 
+<img src= "./readme/WelcomeApp1.png" width="600">
 
 
+Select **Link Resource** from the Identity Management Screen
+
+<img src= "./readme/WelcomeApp2.png" width="600">
+
+If you’ve built Slack apps with Standard Library, you’ll see existing Slack accounts, or you can select **Link New Resource** to link a new Slack app.
+
+<img src= "./readme/WelcomeApp3.png" width="600">
+
+Select **Install Standard Library App**.
+
+<img src= "./readme/WelcomeApp4.png" width="600">
+
+You should see an OAuth popup that looks like this:
+
+<img src= "./readme/WelcomeApp5.png" width="600">
+
+Select **Allow**. You’ll have the option to customize your Slack app with a name and image.
+
+<img src= "./readme/WelcomeApp6.png" width="600">
+
+Select **Finish**. The green checkmarks confirm that you’ve linked your accounts correctly. Click **Finished Linking.**
+
+<img src= "./readme/WelcomeApp7.png" width="600">
+
+Select the orange **Save Endpoint** button.
+
+<img src= "./readme/WelcomeApp8.png" width="600">
+
+Give your project a name and **Save API Project**.
+
+Great! You’ve just saved your first project. Autocode automatically sets up a project scaffold to save your project as an API endpoint, but it hasn’t been deployed.
+
+This means your endpoints are not yet live and can’t respond to HTTP requests or events. To deploy your API to the cloud select **Deploy API** in the bottom-left of the file manager.
+
+<img src= "./readme/WelcomeApp9.png" width="400">
+
+🚀 **Congrats! Your App is Live** 
 
 # Test Your Workflow
+
+Test your Slack app by joining or leaving any channel in your workspace. If you’ve set everything up properly you should receive a warm welcome from your Slack app.
+
+<img src= "./readme/WelcomeApp10.png" width="400">
+
 # Making Changes
 # Support
 # Acknowledgements
