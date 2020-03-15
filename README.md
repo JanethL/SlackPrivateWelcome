@@ -123,5 +123,62 @@ Test your Slack app by joining or leaving any channel in your workspace. If youâ
 <img src= "./readme/WelcomeApp10.png" width="400">
 
 # Making Changes
+
+There are two ways to modify your application. The first is via our in-browser
+editor, [Autocode](https://autocode.com/). The second is
+via the [Standard Library CLI](https://github.com/stdlib/lib).
+
+## via Web Browser
+
+Simply visit [`Autocode.com`](https://autocode.com) and select your project. 
+You can easily make updates and changes this way, and deploy directly from your browser.
+
+## via Command Line
+
+You can install the CLI tools from [stdlib/lib](https://github.com/stdlib/lib) to test,
+makes changes, and deploy.
+
+
+To retrieve your package via `lib get`...
+
+```shell
+lib get <username>/<project-name>@dev
+```
+
+```shell
+# Deploy to dev environment
+lib up dev
+```
+
+# Shipping to Production
+
+Standard Library has easy dev / prod environment management, if you'd like to ship to production,
+visit [`build.stdlib.com/projects`](https://build.stdlib.com/projects),
+find your project and select it.
+
+From the environment management screen, simply click **Ship Release**.
+
+<img src="https://cdn-images-1.medium.com/max/1440/1*JqiwC6a_zbIdTsww1BOYLQ.png" width="400">
+
+Link any necessary resources, specify the version of the release and click **Create Release** to proceed. 
+
+That's all you need to do!
+
 # Support
+
+Via Slack: [`libdev.slack.com`](https://libdev.slack.com/)
+
+You can request an invitation by clicking `Community > Slack` in the top bar
+on [`https://stdlib.com`](https://stdlib.com).
+
+Via Twitter: [@SandardLibrary(https://twitter.com/StandardLibrary)
+
+Via E-mail: [support@stdlib.com](mailto:support@stdlib.com)
+
 # Acknowledgements
+
+Thanks to the Standard Library team and community for all the support!
+
+Keep up to date with platform changes on our [Blog](https://stdlib.com/blog).
+
+Happy hacking!
