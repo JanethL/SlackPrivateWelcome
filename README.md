@@ -75,36 +75,36 @@ You can read more about API specifications and parameters here: https://docs.std
 
 Before we can deploy our code live, we need to Select the 1 Account Required red button which will prompt you to link a Slack account.
 
-<img src= "./readme/WelcomeApp1.png" width="600">
+<img src= "./readme/WelcomeApp1.png" width="400">
 
 
 Select **Link Resource** from the Identity Management Screen
 
-<img src= "./readme/WelcomeApp2.png" width="600">
+<img src= "./readme/WelcomeApp2.png" width="400">
 
 If you’ve built Slack apps with Standard Library, you’ll see existing Slack accounts, or you can select **Link New Resource** to link a new Slack app.
 
-<img src= "./readme/WelcomeApp3.png" width="600">
+<img src= "./readme/WelcomeApp3.png" width="400">
 
 Select **Install Standard Library App**.
 
-<img src= "./readme/WelcomeApp4.png" width="600">
+<img src= "./readme/WelcomeApp4.png" width="400">
 
 You should see an OAuth popup that looks like this:
 
-<img src= "./readme/WelcomeApp5.png" width="600">
+<img src= "./readme/WelcomeApp5.png" width="400">
 
 Select **Allow**. You’ll have the option to customize your Slack app with a name and image.
 
-<img src= "./readme/WelcomeApp6.png" width="600">
+<img src= "./readme/WelcomeApp6.png" width="400">
 
 Select **Finish**. The green checkmarks confirm that you’ve linked your accounts correctly. Click **Finished Linking.**
 
-<img src= "./readme/WelcomeApp7.png" width="600">
+<img src= "./readme/WelcomeApp7.png" width="400">
 
 Select the orange **Save Endpoint** button.
 
-<img src= "./readme/WelcomeApp8.png" width="600">
+<img src= "./readme/WelcomeApp8.png" width="400">
 
 Give your project a name and **Save API Project**.
 
