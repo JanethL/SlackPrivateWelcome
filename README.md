@@ -1,11 +1,29 @@
 # README
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
-# 👋 Greet new members privately in Slack with Autocode + Block Kit Builder
+# 👋 A Slack App to Greet and Guide New Members to a Channel
 
-In just a few steps, we will create a Slack app to privately welcome and guide new users when they join a Slack channel. We’ll breeze through the setup process, and you’ll be able to return to make modifications and add your own style and custom message for a unique workspace onboarding experience!
+In just a few steps, we will create a Slack app to privately welcome and guide new users when they join a Slack channel. After you deploy the code, you’ll be able to return to make modifications and add your own style and custom message for a unique  onboarding experience.
+
+<img src= "./readme/WelcomeApp10.png" width="400">
+
+The Slack app will run on [Standard Library](https://stdlib.com), a
+free-to-use API and workflow hosting platform, **powered by Node.js**, that will
+use this repository as its project structure. Standard Library will automatically
+handle Slack API authentication/webhook signing and more for you, so you can
+focus on writing and modifying logic.
 
 # Use Case
+
+👋 Welcome and guide new members in a channel
+
+📏 Set channel expectations
+
+👉🏼 Highlight key people and resources
+
+📅 Share upcoming events and due dates
+
+💬Foster an active and engaged community
 
 
 # Table of Contents
